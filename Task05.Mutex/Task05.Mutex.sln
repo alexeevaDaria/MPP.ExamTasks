@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task05.Mutex", "Task05.Mutex\Task05.Mutex.csproj", "{89979C89-AAC2-41F9-A736-747E2CBB2991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexTest", "MutexTest\MutexTest.csproj", "{5594488E-6362-4F60-8E5D-3E1E1D0F0393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89979C89-AAC2-41F9-A736-747E2CBB2991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89979C89-AAC2-41F9-A736-747E2CBB2991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89979C89-AAC2-41F9-A736-747E2CBB2991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89979C89-AAC2-41F9-A736-747E2CBB2991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5594488E-6362-4F60-8E5D-3E1E1D0F0393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5594488E-6362-4F60-8E5D-3E1E1D0F0393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5594488E-6362-4F60-8E5D-3E1E1D0F0393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5594488E-6362-4F60-8E5D-3E1E1D0F0393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
