@@ -14,7 +14,7 @@ namespace Task04.LogFile
 
         public LogFile(string pathToFile)
         {
-            streamWriter = new StreamWriter(pathToFile);
+            streamWriter = new StreamWriter(pathToFile, true);
         }
 
         public void Dispose()
