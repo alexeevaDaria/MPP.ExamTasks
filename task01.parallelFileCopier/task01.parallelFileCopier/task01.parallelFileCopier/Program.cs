@@ -55,8 +55,11 @@ namespace task01.parallelFileCopier
                 CreateDestinationDirectory(copyInfo.DirectoryName);
                 RunTask(Copy, copyInfo);
             }
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
+            Task<bool>[] taskArr = tasks.ToArray<Task<bool>>();
+            Task.WaitAll(taskArr);
             Console.WriteLine("Copied files: " + copiedFilesCount);
+            Console.Read();
         }
 
         private static void CreateDestinationDirectory(string path)
